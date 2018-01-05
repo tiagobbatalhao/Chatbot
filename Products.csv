@@ -1,0 +1,10 @@
+Categoria,Nome,Descrição,Foto,Opções,Preço
+"camisetas","Camiseta preta","Camiseta simples de cor única (preta)","Tshirt1.png","{""tamanho"":[""P"",""M"",""G"",""GG"",""GGG"",""Outros""]}",49.9
+"camisetas","Camiseta cinza","Camiseta simples de cor única (cinza)","Tshirt2.png","{""tamanho"":[""P"",""M"",""G"",""GG"",""GGG"",""Outros""]}",49.9
+"camisetas","Camiseta branca","Camiseta simples de cor única (branca)","Tshirt3.png","{""tamanho"":[""P"",""M"",""G"",""GG"",""GGG"",""Outros""]}",49.9
+"camisetas","Camiseta azul","Camiseta simples de cor única (azul)","Tshirt4.png","{""tamanho"":[""P"",""M"",""G"",""GG"",""GGG"",""Outros""]}",69.9
+"camisetas","Camiseta vermelha","Camiseta simples de cor única (vermelha)","Tshirt5.png","{""tamanho"":[""P"",""M"",""G"",""GG"",""GGG"",""Outros""]}",69.9
+"camisetas","Camiseta roxa","Camiseta simples de cor única (roxa)","Tshirt6.png","{""tamanho"":[""P"",""M"",""G"",""GG"",""GGG"",""Outros""]}",89.9
+"camisetas","Camiseta laranja","Camiseta simples de cor única (laranja)","Tshirt7.png","{""tamanho"":[""P"",""M"",""G"",""GG"",""GGG"",""Outros""]}",89.9
+"camisetas","Camiseta verde","Camiseta simples de cor única (verde)","Tshirt8.png","{""tamanho"":[""P"",""M"",""G"",""GG"",""GGG"",""Outros""]}",69.9
+"camisetas","Camiseta amarela","Camiseta simples de cor única (amarela)","Tshirt9.png","{""tamanho"":[""P"",""M"",""G"",""GG"",""GGG"",""Outros""]}",89.9
