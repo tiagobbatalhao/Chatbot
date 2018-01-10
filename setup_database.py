@@ -47,8 +47,7 @@ def check_database():
     output+= '\n\nRetrieved {} users.'.format(len(users))
     output+= '\n\nRetrieved {} products.'.format(len(products))
     output+= '\n\nRetrieved {} items in cart.'.format(len(cart))
-    print(products)
-    print(cart)
+    print(users)
     return output, 200
 
 def create_table_messages():

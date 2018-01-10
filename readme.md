@@ -10,7 +10,7 @@ O comportamento do chatbot emula uma loja online de camisetas, em que o usuário
 
 ## Comportamento do bot
 
-O bot simula uma loja de camisetas. Após uma mensagem de boas-vindas, o app direciona o usuário através de uma combinação de botões de resposta rápida, carrossel, listas e menu persistente para mostrar modelos de camisetas vendidas pela loja. A cada procura, uma lista aleatória de camisetas é mostrada (em um app real, um sistema de busca deveria ser implementado para retornar o que o usuário deseja). Se houver interesse, o produto é adicionado a um carrinho de compras. A qualquer momento, o usuário pode ver o carrinho através do menu persistente. Para finalizar a compra, o usuário seria redirecionado para outro site (essa função não foi ainda implementada).
+O bot simula uma loja de camisetas. Após uma mensagem de boas-vindas, o app direciona o usuário através de uma combinação de botões de resposta rápida, carrossel, listas e menu persistente para mostrar modelos de camisetas vendidas pela loja. A interação com o app se inicia através do menu persistente, ou de uma mensagem de início, contendo por exemplo um cumprimento ('oi', 'olá') ou um pedido de ajuda. A cada procura, uma lista aleatória de camisetas é mostrada (em um app real, um sistema de busca deveria ser implementado para retornar o que o usuário deseja). Se houver interesse, o produto é adicionado a um carrinho de compras. A qualquer momento, o usuário pode ver o carrinho através do menu persistente. Para finalizar a compra, o usuário seria redirecionado para outro site (essa função não foi ainda implementada).
 
 ## Arquivos
 

@@ -56,18 +56,17 @@ def setup_persistent_menu():
     data = {'get_started':start,'persistent_menu':[menu]}
     return data
 
-def answer(message,sender_info):
+def answer(message, sender_info):
     """
     Answer a message from user.
-    Reply with a welcome message if the user has not sent a message
-    in the last 24 hours.
+    Reply with a welcome message if the user says some greeting.
     """
     sender_id = sender_info.get('id')
-    time_since = time_since_last_message(sender_id)
-    if time_since == None or time_since > 24*3600*1000:
+    text = message.get('message',{}).get('text','').lower()
+    greetings = [u'olá',u'oi',u'help',u'socorro',u'ajuda',u'começar']
+    if any([x in text for x in greetings]):
         welcome_message(message, sender_info)
-    else:
-        pass
+
 
 def welcome_message(message, sender_info = None, *args, **kwargs):
     """
